@@ -1,0 +1,219 @@
+.qualification__container {
+    max-width: 768px;
+}
+
+.qualification__tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center align flex items vertically */
+    margin-bottom: var(--mb-2);
+}
+
+/* .qualification__button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 var(--mb-3);
+    cursor: pointer;
+} 
+
+.qualification__button:hover {
+    color: var(--title-color-dark);
+}
+
+.qualification__active {
+    color: var(--title-color-dark);
+}
+*/
+
+.qualification__button {
+    cursor: pointer;
+    color: var(--title-color);
+    padding: 0.25rem 0.75rem;
+    font-weight: var(--font-medium);
+    border-radius: 0.5rem;
+    margin: 0 var(--mb-3);
+}
+
+.qualification__button:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.qualification__active {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__sections {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+}
+
+.qualification__content {
+    display: none;
+}
+
+.qualification__content-active {
+    display: block;
+}
+
+/* .qualification__data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+} */
+
+.qualification__title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    position: relative;
+    margin-bottom: var(--mb-1-5);}
+
+.qualification__title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.85rem; /* Adjust as needed */
+    height: 1px; /* Line thickness */
+    width: 50%; /* Line width */
+    background: var(--title-color); /* Line color */
+}
+
+.qualification__subtitle {
+    display: inline-block;
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-1);
+    color: var(--title-color);
+}
+
+.qualification__data ul li {
+    list-style-type: disc; /* Add a dot */
+    padding-left: 1em; /* Add some padding */
+    margin-bottom: var(--mb-0-75);
+    font-size: var(--normal-font-size);
+    color: var(--title-color);
+}
+
+.qualification__calendar {
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.qualification__calendar, .qualification__title, .qualification__subtitle {
+    height: 50px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    /* Rest of your styles */
+}
+
+/* .qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+*/
+
+/* .qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}  */
+
+.qualification__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+    grid-gap: 3rem; /* Adjust as needed */
+    justify-items: center; /* Center align grid items horizontally */
+    align-items: center; /* Center align grid items vertically */
+}
+
+.qualification__data {
+    /* border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    background-color: var(--container-color); */
+    padding: 2rem 2rem;
+    width: 450px;
+    height: 100%;
+}
+
+/* Your existing CSS */
+
+/* Responsive styles for 992px */
+@media screen and (max-width: 992px) {
+    .qualification__data {
+        padding: 1.5rem 3rem;
+        width: 300px;
+    }
+
+    .qualification__calendar, .qualification__title, .qualification__subtitle {
+        height: auto; /* Auto height for smaller screens */
+    }
+    
+    .qualification__title::after {
+        width: 40%;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .qualification__grid {
+        grid-template-columns: 1fr; /* Creates 1 column for smaller screens */
+    }
+
+    .qualification__data {
+        padding: 1rem 2rem; /* Reduce padding for smaller screens */
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .qualification__calendar, .qualification__title, .qualification__subtitle {
+        height: auto; /* Auto height for smaller screens */
+    }
+
+    .qualification__title::after {
+        width: 30%; /* Shorter line for smaller screens */
+    }
+
+
+}
+
+/* Responsive styles for 576px */
+@media screen and (max-width: 576px) {
+    .qualification__data {
+        padding: 1rem 2rem;
+    }
+
+    .qualification__title::after {
+        width: 30%;
+    }
+
+    .qualification__tabs {
+        column-gap: 1.5rem; /* Further reduce column gap */
+    }
+}
+
+/* Responsive styles for 350px */
+@media screen and (max-width: 350px) {
+    .qualification__data {
+        padding: 0.5rem 1rem;
+    }
+
+    .qualification__title::after {
+        width: 20%;
+    }
+
+    .qualification__tabs {
+        column-gap: 0.5rem; /* Further reduce column gap */
+    }
+}

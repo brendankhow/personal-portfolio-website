@@ -1,0 +1,97 @@
+/* .vertical-timeline-element-content {
+    box-shadow: 0 0 0 0 !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding: 2rem 3rem !important;
+    background-color: var(--container-color) !important;
+    border-radius: 1.25rem !important;
+} */
+
+/* Box */
+.vertical-timeline-element-content {
+    box-shadow: none !important;
+    padding: 1rem 1rem !important;
+    border-radius: 1.25rem !important;
+    background: none !important;
+} 
+
+/* Box Arrow */
+.vertical-timeline-element-content-arrow{
+    border: 0 !important;
+} 
+
+/* Timeline */
+.vertical-timeline::before {
+    width: 2px !important;
+    background: #333333 !important;
+}
+
+@media only screen and (min-width: 1170px){
+    .vertical-timeline--two-columns .vertical-timeline-element-icon {
+        width: 45px !important;
+        height: 45px !important;
+        left: 50% !important;
+        margin-left: -23.5px !important;
+    }
+}
+
+.vertical-timeline-element-title {
+    color: var(--title-color) !important;
+}
+
+.vertical-timeline-element-subtitle {
+    color: var(--title-color) !important;
+}
+  
+.description {
+    color: var(--title-color) !important;
+}
+
+.date {
+    color: var(--title-color);
+}
+
+.description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.description li {
+    font-size: var(--small-font-size);
+    margin-bottom: 0.5rem;
+    color: #757575;
+}
+
+
+/*==Breakpoints==*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .qualification__container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+  
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .qualification__container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .qualification__sections {
+        grid-template-columns: initial;
+    }
+
+    .qualification__button {
+        margin: 0 var(--mb-0-75);
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .qualification__data {
+        gap: 0.5rem;
+    }
+}
