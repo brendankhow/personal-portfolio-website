@@ -12,7 +12,7 @@ const Experience = () => {
     return (
         <section className="experience section" id="experience">
         <h2 className="section__title">Work Experience</h2>
-        <span className="section__subtitle">My Personal Journey</span>
+        <span className="section__subtitle">My Career Journey</span>
         <VerticalTimeline className="vertical__line">
             {
                 timelineElements.map((element) => {
