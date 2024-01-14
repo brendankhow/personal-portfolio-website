@@ -1,6 +1,7 @@
 import Work1 from "../../assets/sustainableEats.svg";
 import Work2 from "../../assets/flexify.svg";
 import Work3 from "../../assets/fomo.svg";
+import Work4 from "../../assets/UrbanAlze.png";
 
 export const projectsData = [
     {
@@ -29,6 +30,15 @@ export const projectsData = [
         github: "https://github.com/yixuan0922/FOMO",
         figma: "",
         demo: "",
+    },
+    {
+        id: 4,
+        image: Work4,
+        title: "UrbanAlze",
+        category: "design",
+        github: "",
+        figma: "",
+        demo: "https://www.figma.com/proto/TB0akMAxSXhEtRkl2nNy7k/We-prototype-here?type=design&node-id=162-4917&t=HC5zF66k2mWhaOUn-1&scaling=scale-down-width&page-id=13%3A9787&starting-point-node-id=162%3A4917",
     },
 ];
 
