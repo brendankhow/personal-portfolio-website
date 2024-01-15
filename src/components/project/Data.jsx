@@ -1,7 +1,6 @@
 import Work1 from "../../assets/sustainableEats.svg";
 import Work2 from "../../assets/flexify.svg";
 import Work3 from "../../assets/fomo.svg";
-import Work4 from "../../assets/UrbanAlze.png";
 
 export const projectsData = [
     {
@@ -19,8 +18,8 @@ export const projectsData = [
         title: "Flexify",
         category: "design",
         github: "",
-        figma: "https://www.figma.com/file/ARJMrZK1ktIq5171YriLEC/Flexify?type=design&node-id=0-1&mode=design&t=lljEWm6w041yPfJ2-0",
-        demo: "https://www.figma.com/proto/ARJMrZK1ktIq5171YriLEC/Flexify?type=design&node-id=43-1103&t=PSBmVHZWm0GrjEYj-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=657%3A5411&show-proto-sidebar=1&hide-ui=1",
+        figma: "https://www.figma.com/file/ERaBt5RnvFNAqpdpY0f8ql/Flexify?type=design&node-id=0-1&mode=design&t=4HClZy8dxT8w2ZQ5-0",
+        demo: "https://www.figma.com/proto/ERaBt5RnvFNAqpdpY0f8ql/Flexify?type=design&node-id=1-4991&t=4HClZy8dxT8w2ZQ5-0&scaling=contain&page-id=0%3A1",
     },
     {
         id: 3,
@@ -30,15 +29,6 @@ export const projectsData = [
         github: "https://github.com/yixuan0922/FOMO",
         figma: "",
         demo: "",
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: "UrbanAlze",
-        category: "design",
-        github: "",
-        figma: "",
-        demo: "https://www.figma.com/proto/TB0akMAxSXhEtRkl2nNy7k/We-prototype-here?type=design&node-id=162-4917&t=HC5zF66k2mWhaOUn-1&scaling=scale-down-width&page-id=13%3A9787&starting-point-node-id=162%3A4917",
     },
 ];
 
