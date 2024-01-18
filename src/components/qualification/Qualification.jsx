@@ -181,7 +181,7 @@ const Qualification = () => {
                                 </div>
                                 <h1 className="qualification__title">Singapore Management University</h1>
                                 <ul>
-                                    <li>H.E.A.P Hackathon 2023 - 1st Runner Up</li>
+                                    <li>H.E.A.P Hackathon 2023 - 2nd Runner Up</li>
                                     <li>CATALYSTxAI 2023</li>
                                 </ul>
                             </div>
