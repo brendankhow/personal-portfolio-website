@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const ProjectItems = ({item}) => {
     const [isExpanded, setIsExpanded] = useState(false);
