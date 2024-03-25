@@ -1,7 +1,7 @@
 import Work1 from "../../assets/sustainableEats.svg";
 import Work2 from "../../assets/flexify.svg";
 import Work3 from "../../assets/fomo.svg";
-import Work4 from "../../assets/dashbord.svg";
+import Work4 from "../../assets/dashboard.svg";
 
 export const projectsData = [
     {
