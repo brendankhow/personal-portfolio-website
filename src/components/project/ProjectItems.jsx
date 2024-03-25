@@ -1,6 +1,11 @@
 import React from 'react';
 
 const ProjectItems = ({item}) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const handleReadMoreClick = () => {
+        setIsExpanded(!isExpanded);
+    };
     return (
         <div className="project__card" key={item.id}>
             <img src={item.image} alt="" className="project__img"/>
