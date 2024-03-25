@@ -1,6 +1,7 @@
 import Work1 from "../../assets/sustainableEats.svg";
 import Work2 from "../../assets/flexify.svg";
 import Work3 from "../../assets/fomo.svg";
+import Work4 from "../../assets/dashbord.svg";
 
 export const projectsData = [
     {
@@ -29,6 +30,15 @@ export const projectsData = [
         github: "https://github.com/yixuan0922/FOMO",
         figma: "",
         demo: "",
+    },
+    {
+        id: 4,
+        image: Work4,
+        title: "NCS Analytics Dashboard",
+        category: "design",
+        github: "",
+        figma: "https://www.figma.com/file/frOF4u6fZM8XsfXh1msx1g/Untitled?type=design&node-id=0-1&mode=design&t=Ra0nFR2unQACHoRG-0",
+        demo: "https://www.figma.com/proto/frOF4u6fZM8XsfXh1msx1g/Untitled?type=design&node-id=1-352&t=Ra0nFR2unQACHoRG-0&scaling=scale-down&page-id=0%3A1",
     },
 ];
 
