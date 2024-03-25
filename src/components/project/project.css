@@ -96,7 +96,7 @@
     transition: max-height 0.5s ease-in-out; /* Optional: animate the expansion */
 }
 
-.project_description::after {
+/* .project_description::after {
     content: "";
     text-align: right;
     position: absolute;
@@ -105,11 +105,11 @@
     width: 50%;
     height: 1.2em;
     background: linear-gradient(to right, transparent, var(--container-color) 90%);
-    transition: background 0.5s ease-in-out; /* Transition added here */
+    transition: background 0.5s ease-in-out; 
 }
 
 .project_description.expanded {
-    max-height: 1000px; /* Adjust this value as needed */
+    max-height: 1000px; 
 }
 
 .project_description.expanded::after {
@@ -118,19 +118,18 @@
 
 .read-more-button {
     display: block;
-    background-color: var(--container-color); /* Adjust as needed */
-    color: var(--title-color); /* Adjust as needed */
+    background-color: var(--container-color); 
+    color: var(--title-color); 
     border: none;
     cursor: pointer;
     text-align: center;
-    transition: background-color 0.3s ease-in-out; /* Optional: animate the color change */
+    transition: background-color 0.3s ease-in-out; 
     margin-top: var(--mb-0-75);
 }
 
 .read-more-button:hover {
     color: var(--title-color-dark);
-    /* font-weight: bold; */
-}
+} */
 
 .project__items {
     display: flex;
