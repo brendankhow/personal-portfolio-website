@@ -90,7 +90,7 @@
 .project_description {
     font-size: var(--small-font-size);
     text-align: justify;
-    max-height: 125px; /* Adjust this value as needed */
+    max-height: 170px; /* Adjust this value as needed */
     overflow: hidden;
     position: relative;
     transition: max-height 0.5s ease-in-out; /* Optional: animate the expansion */
