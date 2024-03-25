@@ -87,6 +87,51 @@
     text-transform: capitalize;  
 }
 
+.project_description {
+    font-size: var(--small-font-size);
+    text-align: justify;
+    max-height: 125px; /* Adjust this value as needed */
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease-in-out; /* Optional: animate the expansion */
+}
+
+.project_description::after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 1.2em;
+    background: linear-gradient(to right, transparent, var(--container-color) 90%);
+    transition: background 0.5s ease-in-out; /* Transition added here */
+}
+
+.project_description.expanded {
+    max-height: 1000px; /* Adjust this value as needed */
+}
+
+.project_description.expanded::after {
+    display: none;
+}
+
+.read-more-button {
+    display: block;
+    background-color: var(--container-color); /* Adjust as needed */
+    color: var(--title-color); /* Adjust as needed */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out; /* Optional: animate the color change */
+    margin-top: var(--mb-0-75);
+}
+
+.read-more-button:hover {
+    color: var(--title-color-dark);
+    /* font-weight: bold; */
+}
+
 .project__items {
     display: flex;
     gap: 1rem;

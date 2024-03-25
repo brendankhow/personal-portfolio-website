@@ -8,7 +8,6 @@ const ProjectItems = ({item}) => {
             {/* <a href={item.link} className="project__button">
                 Demo <i className="bx bx-right-arrow-alt project__button-icon"></i>
             </a> */}
-            <p className='project_description'>{item.description}</p>
             <div className="project__items">
                 {item.category === 'design' ? (
                     <a href={item.figma} className='btn__figma btn-primary' target='_blank' onClick={(e) => {if (!item.figma) e.preventDefault();}}>Figma</a>
@@ -19,6 +18,14 @@ const ProjectItems = ({item}) => {
                 {/* <a href={item.demo} className='btn__demo btn-primary' target='_blank'>Live Demo</a> */}
                 <a href={item.demo} className='btn__demo btn-primary' target='_blank' onClick={(e) => {if (!item.demo) e.preventDefault();}}>Live Demo</a>
             </div>
+            {/* <p className='project_description'>{item.description}</p> */}
+            <p className={`project_description ${isExpanded ? 'expanded' : ''}`}>
+                {item.description}
+            </p>
+
+            <button onClick={handleReadMoreClick} className="read-more-button">
+                {isExpanded ? 'Read Less' : 'Read More'}
+            </button>
         </div>
     );
 }
