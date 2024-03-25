@@ -90,46 +90,11 @@
 .project_description {
     font-size: var(--small-font-size);
     text-align: justify;
-    max-height: 170px; /* Adjust this value as needed */
+    max-height: 170px;
     overflow: hidden;
     position: relative;
-    transition: max-height 0.5s ease-in-out; /* Optional: animate the expansion */
+    transition: max-height 0.5s ease-in-out;
 }
-
-/* .project_description::after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 1.2em;
-    background: linear-gradient(to right, transparent, var(--container-color) 90%);
-    transition: background 0.5s ease-in-out; 
-}
-
-.project_description.expanded {
-    max-height: 1000px; 
-}
-
-.project_description.expanded::after {
-    display: none;
-}
-
-.read-more-button {
-    display: block;
-    background-color: var(--container-color); 
-    color: var(--title-color); 
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease-in-out; 
-    margin-top: var(--mb-0-75);
-}
-
-.read-more-button:hover {
-    color: var(--title-color-dark);
-} */
 
 .project__items {
     display: flex;
