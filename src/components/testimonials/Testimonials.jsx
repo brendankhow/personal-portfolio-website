@@ -62,7 +62,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 // Import required modules
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const Testimonials = () => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -92,13 +92,18 @@ const Testimonials = () => {
                     spaceBetween: 48,
                   },
                 }}
-                modules={[Pagination]}
+                modules={[Pagination, Autoplay]}
+                autoplay={{
+                    delay: 1500,
+                    disableOnInteraction: false,
+                    
+                }}
+                speed={1500}
             >
                 {Data.map(({ id, image, name, role, company, description }) => {
                     return (
                         <SwiperSlide className="testimonial__card" key={id}>
                             <img src={image} alt="" className="testimonial__img"/>
-
                             <h3 className="testimonial__name">{name}</h3>
                             <h5 className="testimonial__role">{role},</h5>
                             <h5 className="testimonial__company">{company}</h5>

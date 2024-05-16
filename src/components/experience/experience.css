@@ -34,6 +34,15 @@
     }
 }
 
+.vertical-timeline-element-logo {
+    width: 80px;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-1);
+    border: 2px solid #8d8d8d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-top: -35px;
+}
+
 .vertical-timeline-element-title {
     color: var(--title-color) !important;
 }
@@ -48,6 +57,7 @@
 
 .date {
     color: var(--title-color);
+    margin-top: -10px;
 }
 
 .description ul {
@@ -69,6 +79,9 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .date {
+        margin-top: 0px;
+    }
 }
   
 /* For medium devices */
@@ -76,6 +89,9 @@
     .qualification__container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
+    }
+    .date {
+        margin-top: 0px;
     }
 }
 
@@ -87,11 +103,17 @@
     .qualification__button {
         margin: 0 var(--mb-0-75);
     }
+    .date {
+        margin-top: 0px;
+    }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
     .qualification__data {
         gap: 0.5rem;
+    }
+    .date {
+        margin-top: 0px;
     }
 }

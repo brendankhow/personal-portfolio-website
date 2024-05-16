@@ -21,7 +21,12 @@ const ProjectItems = ({item}) => {
                 )}
                 {/* <a href={item.github} className='btn__github btn-primary' target='_blank'>Github</a> */}
                 {/* <a href={item.demo} className='btn__demo btn-primary' target='_blank'>Live Demo</a> */}
-                <a href={item.demo} className='btn__demo btn-primary' target='_blank' onClick={(e) => {if (!item.demo) e.preventDefault();}}>Live Demo</a>
+                {item.demo ? (
+                    <a href={item.demo} className='btn__demo btn-primary' target='_blank' onClick={(e) => {if (!item.demo) e.preventDefault();}}>Live Demo</a>
+                ) : (
+                    <a href={item.video} className='btn__video btn-primary' target='_blank' onClick={(e) => {if (!item.video) e.preventDefault();}}>Video Demo</a>
+                )}
+                {/* <a href={item.demo} className='btn__demo btn-primary' target='_blank' onClick={(e) => {if (!item.demo) e.preventDefault();}}>Live Demo</a> */}
             </div>
             <p className='project_description'>{item.description}</p>
             {/* <p className={`project_description ${isExpanded ? 'expanded' : ''}`}>

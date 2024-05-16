@@ -1,6 +1,25 @@
+import Image1 from "../../assets/zorahealth_logo.jpeg";
+import Image2 from "../../assets/ncs_logo.jpeg";
+import Image3 from "../../assets/saf_logo.jpeg";
+import Image4 from "../../assets/refinitiv_logo.jpeg";
+
 let timelineElements = [
     {
         id: 1,
+        logo: Image1,
+        company: "Zora Health",
+        title: "Software Engineer Intern",
+        description: [
+            // "Utilized Figma to construct a comprehensive dashboard prototype, facilitating client presentations and enhancing user experience", 
+            // "Collaborated closely with functional consultants throughout project delivery lifecycle to achieve successful outcomes", 
+            // "Orchestrated 5 monthly newsletters by working closely with department leads to curate nominations and craft compelling content",
+            // "Developed and designed visually appealing PowerPoint slides for supervisors to present to clients",
+        ],
+        date: "May 2024 - Present",
+    },
+    {
+        id: 2,
+        logo: Image2,
         company: "NCS Pte Ltd",
         title: "Business Analyst Intern",
         description: [
@@ -12,7 +31,8 @@ let timelineElements = [
         date: "Jun 2023 - Oct 2023",
     },
     {
-        id: 2,
+        id: 3,
+        logo: Image3,
         company: "Singapore Armed Forces, 8SIR",
         title: "3rd Sergeant",
         description: [
@@ -23,7 +43,8 @@ let timelineElements = [
         date: "Sep 2020 - Jul 2022",
     },
     {
-        id: 3,
+        id: 4,
+        logo: Image4,
         company: "Refinitiv Asia Pte Ltd",
         title: "Research Assistant Intern",
         description: [
