@@ -46,7 +46,7 @@ export const projectsData = [
         category: "design",
         github: "",
         figma: "https://www.figma.com/file/frOF4u6fZM8XsfXh1msx1g/Untitled?type=design&node-id=0-1&mode=design&t=Ra0nFR2unQACHoRG-0",
-        demo: "https://www.figma.com/proto/5QpVf6XE68tCSS2ZrwqY00/Dashboard-(NCS)-%5Bchanged%5D?type=design&node-id=1-2&t=4OJFgNbiKijFiPrD-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
+        demo: "https://www.figma.com/proto/5QpVf6XE68tCSS2ZrwqY00/Dashboard-(NCS)-%5Bchanged%5D?t=O9tar9atflw8F63h-1&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2",
         video: "",
     },
     {

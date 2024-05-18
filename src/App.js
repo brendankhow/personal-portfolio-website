@@ -8,6 +8,7 @@ import Qualification from './components/qualification/Qualification';
 import Experience from './components/experience/Experience';
 import Testimonials from './components/testimonials/Testimonials';
 import Project from './components/project/Project';
+import Certifications from './components/certifications/Certifications';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
@@ -25,6 +26,7 @@ function App() {
       <Experience />  
       <Testimonials />   
       <Project />  
+      <Certifications />  
       <Contact />    
       
     </main>
