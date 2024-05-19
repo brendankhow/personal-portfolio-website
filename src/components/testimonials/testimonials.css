@@ -7,8 +7,12 @@
     margin: auto;
 }
 
-.swiper-slide {
+.testimonial .swiper-slide {
     height: auto !important;
+}
+
+.testimonial .swiper-slide-active {
+    /* styles for active swiper slide in testimonial component */
 }
 
 .testimonial__card {
