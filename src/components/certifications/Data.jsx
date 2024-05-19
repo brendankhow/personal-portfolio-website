@@ -72,7 +72,7 @@ export const Data = [
       "This certificate is awarded to Brendan, Bo Ren Khow, recognizing the successful completion of the International Introduction to Investment Award. This certification demonstrates Brendan's foundational knowledge and understanding of investment principles, granted by the Chartered Institute for Securities & Investment (CISI).",
   },
   {
-    id: 7,
+    id: 8,
     image: Image8,
     name: "Data Manipulation with pandas",
     issued: "DataCamp",
