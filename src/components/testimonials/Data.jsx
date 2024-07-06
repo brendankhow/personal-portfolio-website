@@ -1,7 +1,7 @@
-import Image1 from "../../assets/yanchong.jpeg";
-import Image2 from "../../assets/lavanya.jpeg";
-import Image3 from "../../assets/averyl.jpeg";
-import Image4 from "../../assets/gabriele.jpeg";
+import Image1 from "../../assets/yanchong.webp";
+import Image2 from "../../assets/lavanya.webp";
+import Image3 from "../../assets/averyl.webp";
+import Image4 from "../../assets/gabriele.webp";
 
 export const Data = [
     {

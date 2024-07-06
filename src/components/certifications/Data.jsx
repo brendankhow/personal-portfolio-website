@@ -1,11 +1,11 @@
-import Image1 from "../../assets/UX_badge.png";
-import Image2 from "../../assets/Data_badge.png";
-import Image3 from "../../assets/DataAdv_badge.png";
-import Image4 from "../../assets/Project_badge.png";
-import Image5 from "../../assets/Biz_badge.png";
-import Image6 from "../../assets/developer_learning_solutions_logo.jpeg";
-import Image7 from "../../assets/CISI_logo.jpeg";
-import Image8 from "../../assets/datacamp_logo.jpeg";
+import Image1 from "../../assets/UX_badge.webp";
+import Image2 from "../../assets/Data_badge.webp";
+import Image3 from "../../assets/DataAdv_badge.webp";
+import Image4 from "../../assets/Project_badge.webp";
+import Image5 from "../../assets/Biz_badge.webp";
+import Image6 from "../../assets/developer_learning_solutions_logo.webp";
+import Image7 from "../../assets/CISI_logo.webp";
+import Image8 from "../../assets/datacamp_logo.webp";
 
 export const Data = [
   {

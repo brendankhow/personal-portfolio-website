@@ -1,7 +1,7 @@
-import Image1 from "../../assets/zorahealth_logo.jpeg";
-import Image2 from "../../assets/ncs_logo.jpeg";
-import Image3 from "../../assets/saf_logo.jpeg";
-import Image4 from "../../assets/refinitiv_logo.jpeg";
+import Image1 from "../../assets/zorahealth_logo.webp";
+import Image2 from "../../assets/ncs_logo.webp";
+import Image3 from "../../assets/saf_logo.webp";
+import Image4 from "../../assets/refinitiv_logo.webp";
 
 let timelineElements = [
     {
