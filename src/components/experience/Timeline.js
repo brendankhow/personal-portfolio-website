@@ -7,15 +7,16 @@ let timelineElements = [
     {
         id: 1,
         logo: Image1,
-        company: "Zora Health",
+        company: "Zora Healthcare Pte Ltd",
         title: "Software Engineer Intern",
         description: [
-            // "Utilized Figma to construct a comprehensive dashboard prototype, facilitating client presentations and enhancing user experience", 
-            // "Collaborated closely with functional consultants throughout project delivery lifecycle to achieve successful outcomes", 
-            // "Orchestrated 5 monthly newsletters by working closely with department leads to curate nominations and craft compelling content",
-            // "Developed and designed visually appealing PowerPoint slides for supervisors to present to clients",
+            "Assisted in development of core business application for the Business-to-Business (B2B) channel of Zora Health",
+            "Built a scalable and secure mobile web application using NuxtJS, NodeJS & Express, FIrebase and Google Cloud Platform (GCP)",
+            "Configured and implemented authentication features for registration and login utilizing Firebase",
+            "Contributed to building a learning management system from scratch, including implementing data-fetching logic and structuring data",
+            "Facilitated integration of Shopify marketplace with application, enhancing user journey for a seamless platform experience",
         ],
-        date: "May 2024 - Present",
+        date: "May 2024 - Nov 2024",
     },
     {
         id: 2,
