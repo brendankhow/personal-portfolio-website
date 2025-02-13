@@ -13,7 +13,7 @@ const Data = () => {
     <div className="home__data">
         <h1 className="home__title">Hello, <br></br>I'm Brendan</h1>
         <h3 className="home__subtitle">{typeEffect}<Cursor className="myCursor"/></h3>
-        <p className="home__description">I am a Year 2 Undergraduate studying at Singapore Management University, pursuing a degree in Bachelor of Science (Information Systems).</p>
+        <p className="home__description">I am a Year 3 penultimate-year student at Singapore Management University, pursuing a Bachelor of Science (Information Systems) degree, with an expected graduation in December 2025.</p>
         <a href="#contact" className="button button--flex">
             Say Hello &nbsp;
             <svg
