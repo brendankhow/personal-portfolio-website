@@ -15,7 +15,7 @@ const Experience = () => {
         <span className="section__subtitle">My Career Journey</span>
         <VerticalTimeline className="vertical__line">
             {
-                timelineElements.map((element) => {
+                [...timelineElements].reverse().map((element) => {
                     return (
                         <VerticalTimelineElement
                             key={element.key}
