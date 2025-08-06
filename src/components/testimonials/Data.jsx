@@ -2,6 +2,7 @@ import Image1 from "../../assets/yanchong.webp";
 import Image2 from "../../assets/lavanya.webp";
 import Image3 from "../../assets/averyl.webp";
 import Image4 from "../../assets/gabriele.webp";
+import Image5 from "../../assets/chase.webp";
 
 export const Data = [
     {
@@ -39,5 +40,14 @@ export const Data = [
         company: "NCS Pte Ltd",
         description:
             "Brendan stands out among his peers for his diligent work ethic. He is quick to understand the task requirements at hand, yet he does not shy away from asking for clarifications. He pays attention to detail and willingly finds additional time and effort to ensure the high quality of his deliverables. While in my team, Brendan was working across various workstreams managing competing priorities and numerous stakeholders. He demonstrated excellent time management skills and strong ownership of his work. He was a great addition to the team, always maintaining a warm and positive attitude towards his work and colleagues."
+    },
+    {
+        id: 5,
+        image: Image5,
+        name: "Chase Sng",
+        role: "Product Development Manager & Full Stack Developer",
+        company: "Zora Healthcare Pte Ltd",
+        description:
+            "Brendan is a skilled coder that tackles problems effectively using not just what he's learnt in school, but also quickly adapting to absorb new information so as to deliver a better product overall. He is very capable of handling large projects on his own, and ensuring that deliverables are met far before the deadline."
     },
 ];
