@@ -27,7 +27,7 @@ export const Data = [
         id: 3,
         image: Image3,
         name: "Averyl Lim",
-        role: "Consultant",
+        role: "Consultant, Change Management",
         company: "NCS Pte Ltd",
         description:
             "Working with Brendan was a pleasure - He displayed a strong dedication to learning and adapting to new challenges, quickly grasping challenging concepts. He consistently demonstrated a proactive attitude, providing suggestions and fresh perspectives that positively impacted our Change Management deliverables. Brendan’s eagerness to learn and adapt made him a breeze to work with and I'm confident he’ll excel in any future endeavors."
