@@ -65,7 +65,7 @@ let timelineElements = [
             "Analysed large datasets in Excel leveraging advanced formulas to generate actionable insights for stakeholders",
             "Designed visually engaging PowerPoint decks for internal presentations, enhancing communications with stakeholders",
         ],
-        date: "May 2025 - Present",
+        date: "May 2025 - Jul 2025",
     },
         {
         id: 6,
@@ -77,7 +77,7 @@ let timelineElements = [
             "Automated repetitive workflows using Python scripts, Excel VBA, and Power Query, reducing manual effort and improving processing speed",
             "Facilitated onboarding of new indices to SGX’s cloud platform, ensuring smooth migration and system readiness",
         ],
-        date: "May 2025 - Present",
+        date: "Aug 2025 - Present",
     },
 
 ];
