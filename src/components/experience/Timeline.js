@@ -1,14 +1,16 @@
-import Image1 from "../../assets/refinitiv_logo.webp";
-import Image2 from "../../assets/saf_logo.webp";
-import Image3 from "../../assets/ncs_logo.webp";
-import Image4 from "../../assets/zorahealth_logo.webp";
-import Image5 from "../../assets/sgx_logo.webp";
+import Image1 from "../../assets/company logo/refinitiv_logo.webp";
+import Image2 from "../../assets/company logo/saf_logo.webp";
+import Image3 from "../../assets/company logo/ncs_logo.webp";
+import Image4 from "../../assets/company logo/zorahealth_logo.webp";
+import Image5 from "../../assets/company logo/sgx_logo.webp";
+import Image6 from "../../assets/company logo/smartkarma_logo.webp";
 
 let timelineElements = [
     {
         id: 1,
         logo: Image1,
         company: "Refinitiv Asia Pte Ltd",
+        linkedIn: "https://sg.linkedin.com/company/lseg-data",
         title: "Research Assistant Intern",
         description: [
             "Developed 5+ automated systems using Excel VBA, streamlining operational workflows and reducing manual effort by 50%",
@@ -21,6 +23,7 @@ let timelineElements = [
         id: 2,
         logo: Image2,
         company: "Singapore Armed Forces, 8SIR",
+        linkedIn: "https://www.linkedin.com/company/mindefsg/",
         title: "3rd Sergeant",
         description: [
             "Led a team of soldiers as a Section Commander during trainings and operations",
@@ -33,6 +36,7 @@ let timelineElements = [
         id: 3,
         logo: Image3,
         company: "NCS Pte Ltd",
+        linkedIn: "https://sg.linkedin.com/company/ncs-group",
         title: "Business Analyst Intern",
         description: [
             "Designed a comprehensive Figma dashboard prototype, showcased in 10+ client presentations and increased stakeholder engagement", 
@@ -46,6 +50,7 @@ let timelineElements = [
         id: 4,
         logo: Image4,
         company: "Zora Healthcare Pte Ltd",
+        linkedIn: "https://sg.linkedin.com/company/zorahealth",
         title: "Software Engineer Intern",
         description: [
             "Developed core B2B mobile web application, serving 200+ active users with streamlined access and functionality",
@@ -59,6 +64,7 @@ let timelineElements = [
         id: 5,
         logo: Image5,
         company: "Singapore Exchange Limited (SGX)",
+        linkedIn: "https://sg.linkedin.com/company/sgxgroup",
         title: "Strategy & Transformation Intern",
         description: [
             "Automated manual workflows in Index Operations team by web scraping Helios system, cutting down overall processing time by 85%",
@@ -71,13 +77,25 @@ let timelineElements = [
         id: 6,
         logo: Image5,
         company: "Singapore Exchange Limited (SGX)",
+        linkedIn: "https://sg.linkedin.com/company/sgxgroup",
         title: "Index Operations Analyst Intern",
         description: [
             "Managed daily operations for 1,500+ indices, ensuring accuracy and compliance through data validation and corporate actions",
             "Automated repetitive workflows using Python scripts, Excel VBA, and Power Query, reducing manual effort and improving processing speed",
             "Facilitated onboarding of new indices to SGX’s cloud platform, ensuring smooth migration and system readiness",
         ],
-        date: "Aug 2025 - Present",
+        date: "Aug 2025 - Dec 2025",
+    },
+            {
+        id: 7,
+        logo: Image6,
+        company: "Smartkarma",
+        linkedIn: "https://sg.linkedin.com/company/smartkarma",
+        title: "Growth Strategy Analyst",
+        description: [
+            "-",
+        ],
+        date: "Jan 2026 - Present",
     },
 
 ];

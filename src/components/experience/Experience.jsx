@@ -31,7 +31,20 @@ const Experience = () => {
                         >
                             {/* <span className="qualification__subtitle">{element.date}</span> */}
                             <img src={element.logo} alt="" className="vertical-timeline-element-logo"/>
-                            <h3 className="vertical-timeline-element-title">{element.company}</h3>
+                            <div className="company-header">
+                                <h3 className="vertical-timeline-element-title">{element.company}</h3>
+                                {element.linkedIn && (
+                                    <a 
+                                        href={element.linkedIn} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="company-linkedin"
+                                        aria-label={`Visit ${element.company} on LinkedIn`}
+                                    >
+                                        <i className="uil uil-linkedin"></i>
+                                    </a>
+                                )}
+                            </div>
                             <h5 className="vertical-timeline-element-subtitle">{element.title}</h5>
                             {/* <p className='description'>{element.description}</p> */}
                             <p className="description">

@@ -6,8 +6,11 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Brendan</h1>
+                {/* <h1 className="footer__title">Brendan</h1> */}
                 {/* <img className="home__title" src={logo}/> */}
+                <h1 className="footer__title">
+                    <img src={logo} alt="Brendan" className="footer__logo" />
+                </h1>
                 
                 <ul className="footer__list">
                     <li>

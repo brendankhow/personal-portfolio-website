@@ -111,7 +111,7 @@ const Qualification = () => {
                         <div className="qualification__grid">
                             <div className="qualification__data">
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                    <i className="uil uil-calendar-alt"></i>&nbsp;2022 - 2025
                                 </div>
                                 <h1 className="qualification__title">Singapore Management University</h1>
                                 <p className="qualification__subtitle">Bachelor of Science in Information Systems</p>
@@ -119,7 +119,7 @@ const Qualification = () => {
 
                             <div className="qualification__data">
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2017 - 2020
+                                    <i className="uil uil-calendar-alt"></i>&nbsp;2017 - 2020
                                 </div>
                                 <h1 className="qualification__title">Temasek Polytechnic</h1>
                                 <p className="qualification__subtitle">Diploma in Financial Business Informatics</p>
@@ -177,7 +177,7 @@ const Qualification = () => {
                         <div className="qualification__grid">
                             <div className="qualification__data">
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                    <i className="uil uil-calendar-alt"></i>&nbsp;2022 - 2025
                                 </div>
                                 <h1 className="qualification__title">Singapore Management University</h1>
                                 <ul>
@@ -188,7 +188,7 @@ const Qualification = () => {
 
                             <div className="qualification__data">
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2017 - 2020
+                                    <i className="uil uil-calendar-alt"></i>&nbsp;2017 - 2020
                                 </div>
                                 <h1 className="qualification__title">Temasek Polytechnic</h1>
                                 <ul>

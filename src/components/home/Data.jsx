@@ -13,7 +13,11 @@ const Data = () => {
     <div className="home__data">
         <h1 className="home__title">Hello, <br></br>I'm Brendan</h1>
         <h3 className="home__subtitle">{typeEffect}<Cursor className="myCursor"/></h3>
-        <p className="home__description">I am a Year 4 student at Singapore Management University, pursuing a Bachelor of Science (Information Systems) degree, with an expected graduation in December 2025.</p>
+        <p className="home__description" style={{ textAlign: 'justify', textAlignLast: 'left' }}> 
+            I'm an Information Systems graduate from Singapore Management University and currently a Growth Strategy Analyst at Smartkarma. 
+            <br /><br />
+            My interests lie in software engineering, product development, and building practical, user-centric solutions with modern web technologies.
+        </p>
         <a href="#contact" className="button button--flex">
             Say Hello &nbsp;
             <svg
